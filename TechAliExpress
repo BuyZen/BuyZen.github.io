@@ -1,24 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>TechAliExpress - Meilleurs gadgets</title>
+    <title>BuyZen - Meilleurs deals</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
-        .product { border: 1px solid #ddd; padding: 15px; margin-bottom: 20px; border-radius: 5px; }
-        .product img { max-width: 200px; }
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .product {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .product img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .buy-btn {
+            background: #FF6A00;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 10px;
+        }
     </style>
 </head>
 <body>
-    <h1>TechAliExpress</h1>
-    <p>Découvrez les meilleurs gadgets high-tech pas chers !</p>
+    <h1>💎 BuyZen</h1>
+    <p>Vos meilleurs deals high-tech</p>
 
     <div class="product">
-        <h2>Montre connectée XYZ</h2>
-        <img src="https://via.placeholder.com/200" alt="Montre connectée">
-        <p>Prix : 25€</p>
-        <a href="TON_LIEN_AFFILIATION_ALIEXPRESS">Acheter maintenant</a>
+        <h2>⌚ Montre Connectée Pro</h2>
+        <img src="https://via.placeholder.com/600x400" alt="Montre connectée">
+        <p>🔹 Écran tactile | 🔋 7 jours autonomie</p>
+        <p>💶 Prix : <strong>29,99€</strong> (au lieu de 45€)</p>
+        <a href="TON_LIEN_AFFILIATION" class="buy-btn">👉 Acheter maintenant</a>
     </div>
-
-    <!-- Ajoute d'autres produits ici -->
 </body>
 </html>

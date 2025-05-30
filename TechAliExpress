@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TechAliExpress - Meilleurs gadgets</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        .product { border: 1px solid #ddd; padding: 15px; margin-bottom: 20px; border-radius: 5px; }
+        .product img { max-width: 200px; }
+    </style>
+</head>
+<body>
+    <h1>TechAliExpress</h1>
+    <p>Découvrez les meilleurs gadgets high-tech pas chers !</p>
+
+    <div class="product">
+        <h2>Montre connectée XYZ</h2>
+        <img src="https://via.placeholder.com/200" alt="Montre connectée">
+        <p>Prix : 25€</p>
+        <a href="TON_LIEN_AFFILIATION_ALIEXPRESS">Acheter maintenant</a>
+    </div>
+
+    <!-- Ajoute d'autres produits ici -->
+</body>
+</html>
